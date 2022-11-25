@@ -12,7 +12,7 @@ jobs:
     - name: Build
       run: |
           make
-          rm posts
+          rm -rf posts
           cp public/. ./ -r
           rm -rf  LICENCE public makefile src
     - name: Publish
