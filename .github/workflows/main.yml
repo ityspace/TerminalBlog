@@ -12,8 +12,9 @@ jobs:
     - name: Build
       run: |
           make
+          rm posts
           cp public/. ./ -r
-          rm -rf  LICENCE public makefile posts src
+          rm -rf  LICENCE public makefile src
     - name: Publish
       uses: peaceiris/actions-gh-pages@v3
       with:
