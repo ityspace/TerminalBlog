@@ -10,5 +10,5 @@ build:
 	rm -rf tmp
 
 serve: build
-	python3 -m http.server --directory ./public/
+	python3 -m http.server 8999 --directory ./public/
 
