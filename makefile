@@ -3,7 +3,7 @@
 .PHONY: build
 build:
 	@echo "Building ..."
-	@mkdir tmp
+	@test -d tmp || mkdir tmp
 	@echo "Loading"
 	@sh src/script/xml.sh > public/feed.xml
 	@sh src/script/home.sh > public/index.html
