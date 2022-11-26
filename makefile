@@ -10,6 +10,7 @@ build:
 	@sh src/script/list.sh > public/archive.html
 	@sh src/script/page.sh
 	@rm -rf tmp
+	@echo "Static files are saved at public/"
 	@echo "\033[36mSuccess!\033[0m"
 post:
 	@sh src/script/write.sh
