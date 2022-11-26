@@ -26,7 +26,7 @@ $Editor "posts/$File"
 if [ -s posts/$File ]; then 
 	sed -i '1i'$Date posts/$File
 	sed -i '1a'$Title posts/$File
-	echo > posts/$File
+	echo >> posts/$File
 	echo
 	sleep 1s
 	echo Success!
