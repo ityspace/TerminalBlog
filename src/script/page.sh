@@ -4,6 +4,8 @@ POST_DIR="tmp/posts/"
 
 cp posts tmp/ -r
 
+test -d public/posts && rm -rf public/posts/* || mkdir public/posts;
+
 for file in $POST_DIR*; do
 
 DOMAIN="https://ityspace.github.io"
@@ -14,8 +16,6 @@ TITLE=$(head -n 2 $file | tail -n 1)
 DATE=$(head -n 1 $file	)
 
 sed -i '1, 2d' $file
-
-test -d public/posts && rm -rf public/posts/* || mkdir public/posts;
 
 sh src/script/markdown.sh $file > $(echo "./tmp$file" | sed 's/tmp\/posts//');
 
