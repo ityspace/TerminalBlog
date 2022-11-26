@@ -17,6 +17,13 @@ Build
 make
 ```
 
+Write post
+---
+
+```
+make post
+```
+
 Notes:
 ======
 

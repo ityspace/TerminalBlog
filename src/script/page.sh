@@ -15,14 +15,16 @@ DATE=$(head -n 1 $file	)
 
 sed -i '1, 2d' $file
 
-sh src/markdown.sh $file > $(echo "./tmp$file" | sed 's/tmp\/posts//');
+test -d public/posts || mkdir public/posts;
+
+sh src/script/markdown.sh $file > $(echo "./tmp$file" | sed 's/tmp\/posts//');
 
 echo "
 <!DOCTYPE html>
 <html lang=\"zh\">
   <head>
     <title>$TITLE</title>
-    <meta charSet=\"utf-8\">
+    <meta charset=\"UTF-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
     <meta name=\"description\" content=\"$DESCRIPTION\" >
     <meta name=\"author\" content=\"$AUTHOR\">
