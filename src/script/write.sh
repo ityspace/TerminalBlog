@@ -32,7 +32,7 @@ if [ -s posts/$File ]; then
 	echo Success!
 	exit 0
 else
-	echo -n "\033[33mWarning: File is empty\033[0m"
+	echo -n "\033[33mWarning: File is empty\033[0m" && rm -rf posts/$File
 	exit 0
 fi
 
