@@ -8,6 +8,10 @@
 </code>
 </pre>
 <pre>
+<code>cd TerminalBlog
+</code>
+</pre>
+<pre>
 <code>make
 </code>
 </pre>
