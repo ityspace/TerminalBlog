@@ -1,1 +1,27 @@
-<img src="./imgsrv.svg" alt="SVG"><h1>Terminal/Blog</h1><h4>快速使用</h4><pre><code>git clone https://github.com/ityspace/TerminalShell</code></pre><pre><code>make</code></pre><h4>在浏览器中预览</h4><pre><code>make serve</code></pre><p>TerminalBlog 是一个基于 ShellScript 的博客生成器，运行时不需要任何依赖包。</p>
+<img src="./imgsrv.svg" alt="SVG">
+<h1>Terminal/Blog
+</h1>
+<h4>快速使用
+</h4>
+<pre>
+<code>git clone https://github.com/ityspace/TerminalShell
+</code>
+</pre>
+<pre>
+<code>make
+</code>
+</pre>
+<h4>创建文章
+</h4>
+<pre>
+<code>make post
+</code>
+</pre>
+<h4>在浏览器中预览
+</h4>
+<pre>
+<code>make serve
+</code>
+</pre>
+<p>TerminalBlog 是一个基于 ShellScript 的博客生成器，运行时不需要任何依赖包。
+</p>
