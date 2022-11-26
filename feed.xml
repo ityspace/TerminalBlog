@@ -8,20 +8,7 @@
     <copyright>CC 1.0</copyright>
     <ttl>60</ttl>
 <item>
-  <pubDate>2022/11/26 11:37:55 UTC</pubDate>
-  <category>2022/11/26</category>
-  <title>Test</title>
-  <link>https://ityspace.github.io/posts/Test.html</link>
-  <description>
-    <![CDATA[
-<pre style='border: 0; white-space: pre-wrap; word-break: break-word;'>
-`超赞哦`</pre>]]>
-  </description>
-  <author>unknown</author>
-  <guid>https://ityspace.github.io/posts/Test.html</guid>
-  </item>
-<item>
-  <pubDate>2022/06/23 11:37:55 UTC</pubDate>
+  <pubDate>2022/06/23 12:22:36 UTC</pubDate>
   <category>2022/06/23</category>
   <title>MARKDOWN TEST</title>
   <link>https://ityspace.github.io/posts/chat.html</link>
@@ -45,19 +32,6 @@ Test! Test! Test! Test! Test!
   </description>
   <author>unknown</author>
   <guid>https://ityspace.github.io/posts/chat.html</guid>
-  </item>
-<item>
-  <pubDate>2022/01/01 11:37:55 UTC</pubDate>
-  <category>2022/01/01</category>
-  <title>ity</title>
-  <link>https://ityspace.github.io/posts/ity.html</link>
-  <description>
-    <![CDATA[
-<pre style='border: 0; white-space: pre-wrap; word-break: break-word;'>
-`Test&#39;</pre>]]>
-  </description>
-  <author>unknown</author>
-  <guid>https://ityspace.github.io/posts/ity.html</guid>
   </item>
   </channel>
 </rss>
