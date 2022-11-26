@@ -15,7 +15,7 @@ DATE=$(head -n 1 $file	)
 
 sed -i '1, 2d' $file
 
-test -d public/posts || mkdir public/posts;
+test -d public/posts && rm -rf public/posts/* || mkdir public/posts;
 
 sh src/script/markdown.sh $file > $(echo "./tmp$file" | sed 's/tmp\/posts//');
 
