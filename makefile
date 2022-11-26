@@ -7,7 +7,8 @@ build:
 	@echo "Loading"
 	@sh src/script/xml.sh > public/feed.xml
 	@sh src/script/home.sh > public/index.html
-	@sh src/script/list.sh > public/archive.html
+	@sh src/script/list.sh
+	@sh src/script/archive.sh > public/archive.html
 	@sh src/script/page.sh
 	@rm -rf tmp
 	@echo "Static files are saved at public/"
